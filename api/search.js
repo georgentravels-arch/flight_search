@@ -1,23 +1,25 @@
-const flights = require('../flights.json');
+import flights from "../flights.json";
 
-module.exports = function handler(req, res) {
-  const question = (req.query.q || '').toLowerCase();
+export default function handler(req, res) {
+  const query = (req.query.q || "").toLowerCase();
 
-  const match = flights.find(f =>
-    question.includes(f.airline.toLowerCase()) &&
-    question.includes(f.from.toLowerCase()) &&
-    question.includes(f.to.toLowerCase())
-  );
-
-  if (!match) {
-    res.status(200).json({
-      answer: "Sorry — I don’t have data for that route yet."
-    });
-    return;
+  if (!query) {
+    return res.status(400).json({ error: "No search query provided" });
   }
 
-  const days = match.days.join(', ');
-  res.status(200).json({
-    answer: `${match.airline} flies from ${match.from} to ${match.to} on ${days}.`
+  const matches = flights.filter(flight =>
+    flight.airline.toLowerCase().includes(query)
+  );
+
+  if (matches.length === 0) {
+    return res.json({ answer: "No routes found for that airline." });
+  }
+
+  let response = `Routes operated by ${matches[0].airline}:\n\n`;
+
+  matches.forEach(flight => {
+    response += `• ${flight.from} → ${flight.to} (${flight.days.join(", ")})\n`;
   });
-};
+
+  res.json({ answer: response });
+}
