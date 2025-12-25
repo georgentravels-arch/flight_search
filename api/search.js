@@ -1,6 +1,6 @@
-import flights from '../flights.json' assert { type: 'json' };
+const flights = require('../flights.json');
 
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   const question = (req.query.q || '').toLowerCase();
 
   const match = flights.find(f =>
@@ -20,4 +20,4 @@ export default function handler(req, res) {
   res.status(200).json({
     answer: `${match.airline} flies from ${match.from} to ${match.to} on ${days}.`
   });
-}
+};
