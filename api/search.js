@@ -4,7 +4,7 @@ export default function handler(req, res) {
   const query = (req.query.q || "").toLowerCase();
 
   if (!query) {
-    return res.status(400).json({ error: "No search query provided" });
+    return res.status(400).json({ error: "No airline provided" });
   }
 
   const matches = flights.filter(flight =>
@@ -12,14 +12,18 @@ export default function handler(req, res) {
   );
 
   if (matches.length === 0) {
-    return res.json({ answer: "No routes found for that airline." });
+    return res.json({
+      airline: query,
+      routes: []
+    });
   }
 
-  let response = `Routes operated by ${matches[0].airline}:\n`;
-
-  matches.forEach(flight => {
-    response += `\n${flight.from} → ${flight.to}\nDays: ${flight.days.join(", ")}\n`;
+  res.json({
+    airline: matches[0].airline,
+    routes: matches.map(flight => ({
+      from: flight.from,
+      to: flight.to,
+      days: flight.days
+    }))
   });
-
-  res.json({ answer: response });
 }
