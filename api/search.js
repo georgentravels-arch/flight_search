@@ -15,9 +15,11 @@ export default function handler(req, res) {
     return res.json({ answer: "No routes found for that airline." });
   }
 
-matches.forEach(flight => {
-  response += `\n${flight.from} → ${flight.to}\nDays: ${flight.days.join(", ")}\n`;
-});
+  let response = `Routes operated by ${matches[0].airline}:\n`;
+
+  matches.forEach(flight => {
+    response += `\n${flight.from} → ${flight.to}\nDays: ${flight.days.join(", ")}\n`;
+  });
 
   res.json({ answer: response });
 }
