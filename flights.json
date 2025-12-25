@@ -1,0 +1,8 @@
+[
+  {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Malaga",
+    "days": ["Monday", "Wednesday", "Friday"]
+  }
+]
