@@ -2,7 +2,43 @@
   {
     "airline": "Ryanair",
     "from": "Glasgow",
-    "to": "Malaga",
-    "days": ["Monday", "Wednesday", "Friday"]
+    "to": "Alicante",
+    "days": ["Monday", "Saturday"]
+  },
+  {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Dublin",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Krakow",
+    "days": ["Tuesday", "Wednesday", "Saturday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "London Stansted",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Malta",
+    "days": ["Tuesday", "Saturday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Warsaw Modlin",
+    "days": ["Friday", "Sunday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Wroclaw",
+    "days": ["Wednesday", "Saturday"]
   }
 ]
