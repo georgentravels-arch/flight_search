@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Search</title>
+</head>
+<body>
+
+<h2>Flight Search</h2>
+
+<label for="airline">Choose an airline:</label><br><br>
+
+<select id="airline">
+  <option value="ryanair">Ryanair</option>
+</select>
+
+<br><br>
+
+<button onclick="searchFlights()">Search</button>
+
+<div id="results" style="margin-top:20px;"></div>
+
+<script>
+async function searchFlights() {
+  const airline = document.getElementById("airline").value;
+  const resultsDiv = document.getElementById("results");
+
+  resultsDiv.innerHTML = "Loading...";
+
+  const response = await fetch(
+    "/api/search?q=" + airline
+  );
+
+  const data = await response.json();
+
+  if (!data.routes || data.routes.length === 0) {
+    resultsDiv.innerHTML = "No routes found.";
+    return;
+  }
+
+  let html = "<h3>Routes operated by " + data.airline + "</h3>";
+
+  data.routes.forEach(route => {
+    html += "<p><strong>" + route.from + " → " + route.to + "</strong><br>";
+    html += "Days: " + route.days.join(", ") + "</p>";
+  });
+
+  resultsDiv.innerHTML = html;
+}
+</script>
+
+</body>
+</html>
