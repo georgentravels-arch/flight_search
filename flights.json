@@ -26,6 +26,12 @@
     {
     "airline": "Ryanair",
     "from": "Glasgow",
+    "to": "Malaga",
+    "days": ["Monday", "Tuesday", "Thursday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
     "to": "Malta",
     "days": ["Tuesday", "Saturday"]
   },
