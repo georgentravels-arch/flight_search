@@ -1,4 +1,10 @@
 [
+   {
+    "airline": "Air Transat",
+    "from": "Glasgow",
+    "to": "Toronto",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"]
+  },
   {
     "airline": "Ryanair",
     "from": "Glasgow",
