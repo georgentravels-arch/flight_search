@@ -150,306 +150,357 @@
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Larnaca",
+    "country": "Cyprus",       
     "days": ["Tuesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Dalaman",
+    "country": "Turkiye",       
     "days": ["Wednesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Enfidha",
+    "country": "Tunisia",       
     "days": ["Thursday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Faro",
+    "country": "Portugal",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Hurghada",
+    "country": "Egypt",       
     "days": ["Monday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Jersey",
+    "country": "Channel Islands",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Kos",
+    "country": "Greece",       
     "days": ["Tuesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Lanzarote",
+    "country": "Spain (Canary Islands)",       
     "days": ["Monday", "Thursday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Lisbon",
+    "country": "Portugal",       
     "days": ["Wednesday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "London Gatwick",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "London Luton",
+    "country": "United Kingdom",      
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "London Stansted",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Palma",
+    "country": "Spain (Balearic Islands)",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Malaga",
+    "country": "Spain",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Malta",
+    "country": "Malta",       
     "days": ["Tuesday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Paris",
+    "country": "France",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Pisa",
+    "country": "Italy",       
     "days": ["Tuesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Porto",
+    "country": "Portugal",       
     "days": ["Monday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Prague",
+    "country": "Czech Republic",       
     "days": ["Thursday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Reus",
+    "country": "Spain",       
     "days": ["Monday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Rome",
+    "country": "Italy",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Sharm El Sheikh",
+    "country": "Egypt",       
     "days": ["Wednesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Southampton",
+    "country": "United Kingdom",       
     "days": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Split",
+    "country": "Croatia",       
     "days": ["Wednesday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Tenerife",
+    "country": "Spain (Canary Islands)",      
     "days": ["Thursday", "Sunday"]  
   },
     {
     "airline": "Emirates",
     "from": "Glasgow",
     "to": "Dubai",
+    "country": "United Arab Emirates",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "Icelandair",
     "from": "Glasgow",
     "to": "Reykjavik",
+    "country": "Iceland",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "KLM",
     "from": "Glasgow",
     "to": "Amsterdam",
+    "country": "Netherlands",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Agadir",
+    "country": "Morocco",       
     "days": ["Wednesday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Alicante",
+    "country": "Spain",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Antalya",
+    "country": "Turkiye",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Bodrum",
+    "country": "Turkiye",       
     "days": ["Thursday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Burgas",
+    "country": "Bulgaria",       
     "days": ["Tuesday", "Friday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Corfu",
+    "country": "Greece",       
     "days": ["Thursday"]
   },   
-    {
-    "airline": "Ryanair",
-    "from": "Glasgow",
-    "to": "Alicante",
-    "days": ["Monday", "Saturday"]
-  },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Heraklion",
+    "country": "Greece",       
     "days": ["Tuesday", "Thursday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Dalaman",
+    "country": "Turkiye",       
     "days": ["Monday", "Tuesday", "Wednesday", "Friday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Dubrovnik",
+    "country": "Croatia",       
     "days": ["Friday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Faro",
+    "country": "Portugal",       
     "days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Fuerteventura",
+    "country": "Spain (Canary Islands)",       
     "days": ["Wednesday", "Saturday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Girona",
+    "country": "Spain",       
     "days": ["Thursday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Gran Canaria",
+    "country": "Spain (Canary Islands)",       
     "days": ["Tuesday", "Thursday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Ibiza",
+    "country": "Spain (Balearic Islands)",       
     "days": ["Monday", "Wednesday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Izmir",
+    "country": "Turkiye",       
     "days": ["Monday"]
+  },
+    {
+    "airline": "Ryanair",
+    "from": "Glasgow",
+    "to": "Alicante",
+    "country": "Spain",       
+    "days": ["Monday", "Saturday"]
   },   
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Dublin",
+    "country": "Ireland",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Krakow",
+    "country": "Portugal",       
     "days": ["Tuesday", "Wednesday", "Saturday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "London Stansted",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Malaga",
+    "country": "Spain",       
     "days": ["Monday", "Tuesday", "Thursday", "Saturday", "Sunday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Malta",
+    "country": "Malta",       
     "days": ["Tuesday", "Saturday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Warsaw Modlin",
+    "country": "Poland",       
     "days": ["Friday", "Sunday"]
   },
     {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Wroclaw",
+    "country": "Poland",       
     "days": ["Wednesday", "Saturday"]
   }
 ]
