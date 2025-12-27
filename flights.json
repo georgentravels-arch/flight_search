@@ -60,6 +60,66 @@
     "days": ["Monday", "Friday"]
   }, 
     {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Alicante",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },   
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Amsterdam",
+    "days": ["Monday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Antalya",
+    "days": ["Wednesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Barcelona",
+    "days": ["Tuesday", "Thursday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Belfast City",
+    "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Belfast International",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Berlin",
+    "days": ["Monday", "Friday"]  
+  },
+   {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Birmingham",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Bordeaux",
+    "days": ["Monday", "Wednesday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Bristol",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Alicante",
