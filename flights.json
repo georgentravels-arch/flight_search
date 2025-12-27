@@ -3,6 +3,7 @@
     "airline": "Aer Lingus",
     "from": "Glasgow",
     "to": "Belfast City",
+    "Country": "United Kingdom",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
