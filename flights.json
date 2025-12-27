@@ -54,6 +54,12 @@
     "days": ["Tuesday", "Saturday"]
   },
     {
+    "airline": "Corendon Airlines",
+    "from": "Glasgow",
+    "to": "Antalya",
+    "days": ["Monday", "Friday"]
+  }, 
+    {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Alicante",
