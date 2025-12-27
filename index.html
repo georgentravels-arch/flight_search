@@ -3,21 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Flights from Glasgow</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 40px auto;
-    }
-    select, button {
-      padding: 8px;
-      width: 100%;
-      margin-top: 10px;
-    }
-    .result {
-      margin-top: 20px;
-    }
-  </style>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  select, button {
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .result {
+    margin-top: 20px;
+  }
+
+  /* NEW – spacing improvements */
+  .airline {
+    margin-bottom: 16px;
+  }
+
+  .airline-name {
+    font-weight: bold;
+  }
+</style>
 </head>
 
 <body>
@@ -137,7 +146,13 @@ const days = Array.from(airlineMap[airline]).sort(
   (a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b)
 );
 
-    html += `<li><strong>${airline}</strong> — ${days.join(", ")}</li>`;
+html += `
+  <li class="airline">
+    <div class="airline-name">${airline}</div>
+    <div>Days: ${days.join(", ")}</div>
+  </li>
+`;
+
   });
 
   html += "</ul>";
