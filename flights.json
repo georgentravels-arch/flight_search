@@ -119,6 +119,162 @@
     "to": "Bristol",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
+     {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Chania",
+    "days": ["Wednesday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Larnaca",
+    "days": ["Tuesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Dalaman",
+    "days": ["Wednesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Enfidha",
+    "days": ["Thursday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Faro",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Hurghada",
+    "days": ["Monday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Jersey",
+    "days": ["Monday", "Tuesday", "Thursday", "Friday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Kos",
+    "days": ["Tuesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Lanzarote",
+    "days": ["Monday", "Thursday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Lisbon",
+    "days": ["Wednesday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "London Gatwick",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "London Luton",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "London Stansted",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Palma",
+    "days": ["Monday", "Tuesday", "Thursday", "Friday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Malaga",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Malta",
+    "days": ["Tuesday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Paris",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Pisa",
+    "days": ["Tuesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Porto",
+    "days": ["Monday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Prague",
+    "days": ["Thursday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Reus",
+    "days": ["Monday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Rome",
+    "days": ["Monday", "Tuesday", "Thursday", "Friday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Sharm El Sheikh",
+    "days": ["Wednesday", "Saturday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Southampton",
+    "days": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Split",
+    "days": ["Wednesday", "Sunday"]  
+  },
+    {
+    "airline": "easyJet",
+    "from": "Glasgow",
+    "to": "Tenerife",
+    "days": ["Thursday", "Sunday"]  
+  },   
     {
     "airline": "Ryanair",
     "from": "Glasgow",
