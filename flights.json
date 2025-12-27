@@ -292,6 +292,42 @@
     "from": "Glasgow",
     "to": "Amsterdam",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Agadir",
+    "days": ["Wednesday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Alicante",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Antalya",
+    "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Bodrum",
+    "days": ["Thursday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Burgas",
+    "days": ["Tuesday", "Friday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Corfu",
+    "days": ["Thursday"]
   },   
     {
     "airline": "Ryanair",
@@ -299,6 +335,60 @@
     "to": "Alicante",
     "days": ["Monday", "Saturday"]
   },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Heraklion",
+    "days": ["Tuesday", "Thursday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Dalaman",
+    "days": ["Monday", "Tuesday", "Wednesday", "Friday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Dubrovnik",
+    "days": ["Friday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Faro",
+    "days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Fuerteventura",
+    "days": ["Wednesday", "Saturday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Girona",
+    "days": ["Thursday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Gran Canaria",
+    "days": ["Tuesday", "Thursday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Ibiza",
+    "days": ["Monday", "Wednesday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Izmir",
+    "days": ["Monday"]
+  },   
     {
     "airline": "Ryanair",
     "from": "Glasgow",
