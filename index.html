@@ -123,7 +123,20 @@ function findAirlines() {
   let html = `<h3>${title}</h3><ul>`;
 
   airlines.forEach(airline => {
-    const days = Array.from(airlineMap[airline]).sort();
+const dayOrder = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday"
+];
+
+const days = Array.from(airlineMap[airline]).sort(
+  (a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b)
+);
+
     html += `<li><strong>${airline}</strong> — ${days.join(", ")}</li>`;
   });
 
