@@ -1,5 +1,23 @@
 [
    {
+    "airline": "Aer Lingus",
+    "from": "Glasgow",
+    "to": "Belfast City",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+      {
+    "airline": "Aer Lingus",
+    "from": "Glasgow",
+    "to": "Cork",
+    "days": ["Monday", "Thursday", "Friday", "Sunday"]
+  },
+      {
+    "airline": "Aer Lingus",
+    "from": "Glasgow",
+    "to": "Dublin",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+   {
     "airline": "Air Transat",
     "from": "Glasgow",
     "to": "Toronto",
