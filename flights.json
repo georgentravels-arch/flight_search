@@ -276,16 +276,22 @@
     "days": ["Thursday", "Sunday"]  
   },
     {
-    "airline": "easyJet",
-    "from": "Emirates",
+    "airline": "Emirates",
+    "from": "Glasgow",
     "to": "Dubai",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
-    "airline": "easyJet",
-    "from": "Icelandair",
+    "airline": "Icelandair",
+    "from": "Glasgow",
     "to": "Reykjavik",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
+  },
+    {
+    "airline": "KLM",
+    "from": "Glasgow",
+    "to": "Amsterdam",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },   
     {
     "airline": "Ryanair",
