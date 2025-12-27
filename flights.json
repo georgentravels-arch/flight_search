@@ -66,72 +66,84 @@
     "airline": "Corendon Airlines",
     "from": "Glasgow",
     "to": "Antalya",
+    "country": "Turkiye",       
     "days": ["Monday", "Friday"]
   }, 
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Alicante",
+    "country": "Spain",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },   
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Amsterdam",
+    "country": "Netherlands",       
     "days": ["Monday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Antalya",
+    "country": "Turkiye",       
     "days": ["Wednesday", "Saturday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Barcelona",
+    "country": "Spain",      
     "days": ["Tuesday", "Thursday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Belfast City",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Belfast International",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Berlin",
+    "country": "Germany",       
     "days": ["Monday", "Friday"]  
   },
    {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Birmingham",
+    "country": "United Kingdom",      
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Bordeaux",
+    "country": "France",       
     "days": ["Monday", "Wednesday", "Friday"]  
   },
     {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Bristol",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
      {
     "airline": "easyJet",
     "from": "Glasgow",
     "to": "Chania",
+    "country": "Greece",        
     "days": ["Wednesday", "Sunday"]  
   },
     {
