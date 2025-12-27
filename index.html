@@ -3,30 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Flights from Glasgow</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: 40px auto;
-  }
-  select, button {
-    padding: 8px;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .result {
-    margin-top: 20px;
-  }
-
-  /* NEW – spacing improvements */
-  .airline {
-    margin-bottom: 16px;
-  }
-
-  .airline-name {
-    font-weight: bold;
-  }
-</style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    select, button {
+      padding: 8px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .result {
+      margin-top: 20px;
+    }
+    .airline {
+      margin-bottom: 16px;
+    }
+    .airline-name {
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
@@ -35,14 +32,19 @@
 
 <p><strong>From:</strong> Glasgow</p>
 
-<label for="destination">Destination</label>
-<select id="destination">
-  <option value="">Loading destinations...</option>
+<label for="country">Country (optional)</label>
+<select id="country" onchange="updateDestinations()">
+  <option value="">All countries</option>
 </select>
 
-<label for="day">Day of week</label>
+<label for="destination">Destination</label>
+<select id="destination">
+  <option value="">Select destination</option>
+</select>
+
+<label for="day">Day of week (optional)</label>
 <select id="day">
-  <option value="">Select a day</option>
+  <option value="">Any day</option>
   <option>Monday</option>
   <option>Tuesday</option>
   <option>Wednesday</option>
@@ -59,18 +61,50 @@
 <script>
 let flights = [];
 
+const dayOrder = [
+  "Monday","Tuesday","Wednesday",
+  "Thursday","Friday","Saturday","Sunday"
+];
+
 async function loadData() {
   const response = await fetch("/api/search?all=true");
   const data = await response.json();
   flights = data.flights;
 
-  const destinations = [...new Set(
+  populateCountries();
+  updateDestinations();
+}
+
+function populateCountries() {
+  const countrySelect = document.getElementById("country");
+  const countries = [...new Set(
     flights
       .filter(f => f.from === "Glasgow")
+      .map(f => f.country)
+      .filter(Boolean)
+  )].sort();
+
+  countries.forEach(country => {
+    const option = document.createElement("option");
+    option.value = country;
+    option.textContent = country;
+    countrySelect.appendChild(option);
+  });
+}
+
+function updateDestinations() {
+  const country = document.getElementById("country").value;
+  const destinationSelect = document.getElementById("destination");
+
+  const destinations = [...new Set(
+    flights
+      .filter(f =>
+        f.from === "Glasgow" &&
+        (!country || f.country === country)
+      )
       .map(f => f.to)
   )].sort();
 
-  const destinationSelect = document.getElementById("destination");
   destinationSelect.innerHTML = '<option value="">Select destination</option>';
 
   destinations.forEach(dest => {
@@ -91,79 +125,49 @@ function findAirlines() {
     return;
   }
 
-  // Filter flights from Glasgow to destination
-  let matches = flights.filter(f =>
+  const matches = flights.filter(f =>
     f.from === "Glasgow" &&
-    f.to === destination
+    f.to === destination &&
+    (!day || f.days.includes(day))
   );
 
-  // Group by airline
-  const airlineMap = {};
-
-  matches.forEach(flight => {
-    if (!airlineMap[flight.airline]) {
-      airlineMap[flight.airline] = new Set();
-    }
-    flight.days.forEach(d => airlineMap[flight.airline].add(d));
-  });
-
-  // If day selected, remove airlines that don't fly that day
-  if (day) {
-    Object.keys(airlineMap).forEach(airline => {
-      if (!airlineMap[airline].has(day)) {
-        delete airlineMap[airline];
-      }
-    });
-  }
-
-  const airlines = Object.keys(airlineMap);
-
-  if (airlines.length === 0) {
-    resultsDiv.innerHTML = day
-      ? `No flights to ${destination} on ${day}.`
-      : `No flights to ${destination}.`;
+  if (matches.length === 0) {
+    resultsDiv.innerHTML = "No flights found.";
     return;
   }
 
-  let title = day
-    ? `Airlines flying to ${destination} on ${day}`
-    : `Airlines flying to ${destination}`;
+  const airlineMap = {};
 
-  let html = `<h3>${title}</h3><ul>`;
-
-  airlines.forEach(airline => {
-const dayOrder = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday"
-];
-
-const days = Array.from(airlineMap[airline]).sort(
-  (a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b)
-);
-
-html += `
-  <li class="airline">
-    <div class="airline-name">${airline}</div>
-    <div>Days: ${days.join(", ")}</div>
-  </li>
-`;
-
+  matches.forEach(f => {
+    if (!airlineMap[f.airline]) {
+      airlineMap[f.airline] = new Set();
+    }
+    f.days.forEach(d => airlineMap[f.airline].add(d));
   });
 
-  html += "</ul>";
+  let html = `<h3>Airlines flying to ${destination}</h3>`;
+
+  Object.keys(airlineMap).forEach(airline => {
+    const days = Array.from(airlineMap[airline]).sort(
+      (a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b)
+    );
+
+    html += `
+      <div class="airline">
+        <div class="airline-name">${airline}</div>
+        <div>Days: ${days.join(", ")}</div>
+      </div>
+    `;
+  });
+
   resultsDiv.innerHTML = html;
 }
-
 
 window.onload = loadData;
 </script>
 
 </body>
 </html>
+
 
 
