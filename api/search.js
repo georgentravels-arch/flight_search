@@ -1,29 +1,29 @@
 import flights from "../flights.json";
 
 export default function handler(req, res) {
-  const query = (req.query.q || "").toLowerCase();
+  const { q } = req.query;
 
-  if (!query) {
-    return res.status(400).json({ error: "No airline provided" });
+  // 1️⃣ No query → return airline list
+  if (!q) {
+    const airlines = [...new Set(flights.map(f => f.airline))];
+    res.status(200).json({ airlines });
+    return;
   }
 
-  const matches = flights.filter(flight =>
-    flight.airline.toLowerCase().includes(query)
+  // 2️⃣ Query present → return routes for airline
+  const airline = q.toLowerCase();
+
+  const routes = flights.filter(
+    f => f.airline.toLowerCase() === airline
   );
 
-  if (matches.length === 0) {
-    return res.json({
-      airline: query,
-      routes: []
-    });
+  if (routes.length === 0) {
+    res.status(404).json({ message: "No routes found" });
+    return;
   }
 
-  res.json({
-    airline: matches[0].airline,
-    routes: matches.map(flight => ({
-      from: flight.from,
-      to: flight.to,
-      days: flight.days
-    }))
+  res.status(200).json({
+    airline: routes[0].airline,
+    routes
   });
 }
