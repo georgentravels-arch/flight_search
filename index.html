@@ -77,25 +77,34 @@ function findAirlines() {
   const day = document.getElementById("day").value;
   const resultsDiv = document.getElementById("results");
 
-  if (!destination || !day) {
-    resultsDiv.innerHTML = "Please select both a destination and a day.";
+  if (!destination) {
+    resultsDiv.innerHTML = "Please select a destination.";
     return;
   }
 
-  const matches = flights.filter(f =>
+  let matches = flights.filter(f =>
     f.from === "Glasgow" &&
-    f.to === destination &&
-    f.days.includes(day)
+    f.to === destination
   );
 
+  if (day) {
+    matches = matches.filter(f => f.days.includes(day));
+  }
+
   if (matches.length === 0) {
-    resultsDiv.innerHTML = `No flights to ${destination} on ${day}.`;
+    resultsDiv.innerHTML = day
+      ? `No flights to ${destination} on ${day}.`
+      : `No flights to ${destination}.`;
     return;
   }
 
   const airlines = [...new Set(matches.map(m => m.airline))];
 
-  let html = `<h3>Airlines flying to ${destination} on ${day}</h3><ul>`;
+  let title = day
+    ? `Airlines flying to ${destination} on ${day}`
+    : `Airlines flying to ${destination}`;
+
+  let html = `<h3>${title}</h3><ul>`;
   airlines.forEach(a => {
     html += `<li>${a}</li>`;
   });
@@ -103,6 +112,7 @@ function findAirlines() {
 
   resultsDiv.innerHTML = html;
 }
+
 
 window.onload = loadData;
 </script>
