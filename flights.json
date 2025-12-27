@@ -10,48 +10,56 @@
     "airline": "Aer Lingus",
     "from": "Glasgow",
     "to": "Cork",
+    "country": "Ireland",       
     "days": ["Monday", "Thursday", "Friday", "Sunday"]
   },
     {
     "airline": "Aer Lingus",
     "from": "Glasgow",
     "to": "Dublin",
+    "country": "Ireland",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "Air Transat",
     "from": "Glasgow",
     "to": "Toronto",
+    "country": "Canada",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"]
   },
     {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London City",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"]
   },
     {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London Gatwick",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London Heathrow",
+    "country": "United Kingdom",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
     { 
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "Palma",
+    "country": "Spain (Balearic Islands)",      
     "days": ["Saturday"]        
   },
     {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "San Sebastian",
+    "country": "Spain",       
     "days": ["Tuesday", "Saturday"]
   },
     {
