@@ -24,6 +24,33 @@
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"]
   },
   {
+    "airline": "British Airways",
+    "from": "Glasgow",
+    "to": "London City",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"]
+  },
+  {
+    "airline": "British Airways",
+    "from": "Glasgow",
+    "to": "London Gatwick",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    "airline": "British Airways",
+    "from": "Glasgow",
+    "to": "London Heathrow",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    "airline": "British Airways",
+    "from": "Glasgow",
+    "to": "Palma",
+    "days": ["Saturday"]
+  },
+    "airline": "British Airways",
+    "from": "Glasgow",
+    "to": "San Sebastian",
+    "days": ["Tuesday", "Saturday"]
+  },
+  {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Alicante",
