@@ -2,87 +2,112 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Flight Search</title>
+  <title>Flights from Glasgow</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       max-width: 600px;
       margin: 40px auto;
     }
-    button {
-      padding: 8px 12px;
-      margin-top: 10px;
-      cursor: pointer;
-    }
-    select {
-      padding: 6px;
+    select, button {
+      padding: 8px;
       width: 100%;
+      margin-top: 10px;
     }
-    .route {
-      margin-bottom: 15px;
+    .result {
+      margin-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
-<h2>Flight Search</h2>
+<h2>Flights from Glasgow</h2>
 
-<label for="airline">Choose an airline:</label><br><br>
-<select id="airline"></select>
+<p><strong>From:</strong> Glasgow</p>
 
-<br><br>
-<button onclick="searchFlights()">Search</button>
+<label for="destination">Destination</label>
+<select id="destination">
+  <option value="">Loading destinations...</option>
+</select>
 
-<div id="results" style="margin-top:20px;"></div>
+<label for="day">Day of week</label>
+<select id="day">
+  <option value="">Select a day</option>
+  <option>Monday</option>
+  <option>Tuesday</option>
+  <option>Wednesday</option>
+  <option>Thursday</option>
+  <option>Friday</option>
+  <option>Saturday</option>
+  <option>Sunday</option>
+</select>
+
+<button onclick="findAirlines()">Show airlines</button>
+
+<div id="results" class="result"></div>
 
 <script>
-async function loadAirlines() {
-  const response = await fetch("/api/search");
+let flights = [];
+
+async function loadData() {
+  const response = await fetch("/api/search?all=true");
   const data = await response.json();
+  flights = data.flights;
 
-  const select = document.getElementById("airline");
-  select.innerHTML = "";
+  const destinations = [...new Set(
+    flights
+      .filter(f => f.from === "Glasgow")
+      .map(f => f.to)
+  )].sort();
 
-  data.airlines.forEach(airline => {
+  const destinationSelect = document.getElementById("destination");
+  destinationSelect.innerHTML = '<option value="">Select destination</option>';
+
+  destinations.forEach(dest => {
     const option = document.createElement("option");
-    option.value = airline;
-    option.textContent = airline;
-    select.appendChild(option);
+    option.value = dest;
+    option.textContent = dest;
+    destinationSelect.appendChild(option);
   });
 }
 
-async function searchFlights() {
-  const airline = document.getElementById("airline").value;
+function findAirlines() {
+  const destination = document.getElementById("destination").value;
+  const day = document.getElementById("day").value;
   const resultsDiv = document.getElementById("results");
 
-  resultsDiv.innerHTML = "Loading...";
-
-  const response = await fetch("/api/search?q=" + encodeURIComponent(airline));
-  const data = await response.json();
-
-  if (!data.routes || data.routes.length === 0) {
-    resultsDiv.innerHTML = "No routes found.";
+  if (!destination || !day) {
+    resultsDiv.innerHTML = "Please select both a destination and a day.";
     return;
   }
 
-  let html = `<h3>${data.airline} routes from Glasgow</h3>`;
+  const matches = flights.filter(f =>
+    f.from === "Glasgow" &&
+    f.to === destination &&
+    f.days.includes(day)
+  );
 
-  data.routes.forEach(route => {
-    html += `
-      <div class="route">
-        <strong>${route.from} → ${route.to}</strong><br>
-        Days: ${route.days.join(", ")}
-      </div>
-    `;
+  if (matches.length === 0) {
+    resultsDiv.innerHTML = `No flights to ${destination} on ${day}.`;
+    return;
+  }
+
+  const airlines = [...new Set(matches.map(m => m.airline))];
+
+  let html = `<h3>Airlines flying to ${destination} on ${day}</h3><ul>`;
+  airlines.forEach(a => {
+    html += `<li>${a}</li>`;
   });
+  html += "</ul>";
 
   resultsDiv.innerHTML = html;
 }
 
-window.onload = loadAirlines;
+window.onload = loadData;
 </script>
 
 </body>
 </html>
+
 
