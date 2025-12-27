@@ -5,67 +5,67 @@
     "to": "Belfast City",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
-      {
+    {
     "airline": "Aer Lingus",
     "from": "Glasgow",
     "to": "Cork",
     "days": ["Monday", "Thursday", "Friday", "Sunday"]
   },
-      {
+    {
     "airline": "Aer Lingus",
     "from": "Glasgow",
     "to": "Dublin",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
-      {
+    {
     "airline": "Air Transat",
     "from": "Glasgow",
     "to": "Toronto",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"]
   },
-      {
+    {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London City",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"]
   },
-      {
+    {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London Gatwick",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
-     {
+    {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "London Heathrow",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
-      {   
+    { 
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "Palma",
     "days": ["Saturday"]        
   },
-      {
+    {
     "airline": "British Airways",
     "from": "Glasgow",
     "to": "San Sebastian",
     "days": ["Tuesday", "Saturday"]
   },
-      {
+    {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Alicante",
     "days": ["Monday", "Saturday"]
   },
-      {
+    {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Dublin",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
-      {
+    {
     "airline": "Ryanair",
     "from": "Glasgow",
     "to": "Krakow",
