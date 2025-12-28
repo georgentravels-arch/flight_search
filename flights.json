@@ -572,6 +572,90 @@
     "to": "Amsterdam",
     "country": "Netherlands",       
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Barra",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },   
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Benbecula",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  }, 
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Campbeltown",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"]
+  },
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Derry/Londonderry",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Donegal",
+    "country": "Ireland",       
+    "days": ["Wednesday", "Friday", "Saturday", "Sunday"]
+  }, 
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Islay",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Kirkwall",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Newquay",
+    "country": "United Kingdom",       
+    "days": ["Saturday"]
+  }, 
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Stornoway",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  }, 
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Sumburgh",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },  
+    {
+    "airline": "Loganair",
+    "from": "Glasgow",
+    "to": "Tiree",
+    "country": "United Kingdom",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },  
+    {
+    "airline": "Lufthansa",
+    "from": "Glasgow",
+    "to": "Frankfurt",
+    "country": "Germany",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },   
     {
     "airline": "Ryanair",
