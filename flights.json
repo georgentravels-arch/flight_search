@@ -336,13 +336,6 @@
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]  
   },
     {
-    "airline": "KLM",
-    "from": "Glasgow",
-    "to": "Amsterdam",
-    "country": "Netherlands",       
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-  },
-    {
     "airline": "Jet2",
     "from": "Glasgow",
     "to": "Agadir",
@@ -447,6 +440,139 @@
     "country": "Turkiye",       
     "days": ["Monday"]
   },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Kefalonia",
+    "country": "Greece",       
+    "days": ["Wednesday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Kos",
+    "country": "Greece",       
+    "days": ["Tuesday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Lanzarote",
+    "country": "Spain (Canary Islands)",       
+    "days": ["Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Larnaca",
+    "country": "Cyprus",       
+    "days": ["Wednesday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Funchal",
+    "country": "Portugal",       
+    "days": ["Monday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Palma",
+    "country": "Spain (Balearic Islands)",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Malaga",
+    "country": "Spain",       
+    "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Malta",
+    "country": "Malta",       
+    "days": ["Monday", "Thursday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Marrakesh",
+    "country": "Morocco",       
+    "days": ["Monday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Mahon",
+    "country": "Spain (Balearic Islands)",       
+    "days": ["Tuesday", "Saturday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Naples",
+    "country": "Italy",       
+    "days": ["Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Paphos",
+    "country": "Cyprus",       
+    "days": ["Wednesday", "Saturday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Reus",
+    "country": "Spain",       
+    "days": ["Monday", "Tuesday", "Friday", "Saturday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Rhodes",
+    "country": "Greece",       
+    "days": ["Monday", "Friday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Rome Fiumicino",
+    "country": "Italy",       
+    "days": ["Thursday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Tenerife",
+    "country": "Spain (Canary Islands)",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Verona",
+    "country": "Italy",       
+    "days": ["Wednesday"]
+  },
+    {
+    "airline": "Jet2",
+    "from": "Glasgow",
+    "to": "Zakynthos",
+    "country": "Greece",       
+    "days": ["Wednesday", "Saturday"]
+  },
+    {
+    "airline": "KLM",
+    "from": "Glasgow",
+    "to": "Amsterdam",
+    "country": "Netherlands",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },   
     {
     "airline": "Ryanair",
     "from": "Glasgow",
