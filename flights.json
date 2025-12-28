@@ -712,5 +712,40 @@
     "to": "Wroclaw",
     "country": "Poland",       
     "days": ["Wednesday", "Saturday"]
-  }
+  },
+    {
+    "airline": "SunExpress",
+    "from": "Glasgow",
+    "to": "Antalya",
+    "country": "Turkiye",       
+    "days": ["Monday", "Friday"]
+  },
+    {
+    "airline": "United Airlines",
+    "from": "Glasgow",
+    "to": "Newark",
+    "country": "United States of America",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  }, 
+    {
+    "airline": "WestJet",
+    "from": "Glasgow",
+    "to": "Toronto",
+    "country": "Canada",       
+    "days": ["Monday", "Wednesday", "Thursday", "Saturday"]
+  },  
+    {
+    "airline": "WIZZ Air",
+    "from": "Glasgow",
+    "to": "Milan Malpensa",
+    "country": "Italy",       
+    "days": ["Monday", "Wednesday", "Friday"]
+  },
+    {
+    "airline": "WIZZ Air",
+    "from": "Glasgow",
+    "to": "Rome Fiumicini",
+    "country": "Italy",       
+    "days": ["Monday", "Wednesday", "Friday"]
+  },   
 ]
