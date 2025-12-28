@@ -721,6 +721,167 @@
     "days": ["Monday", "Friday"]
   },
     {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Alicante",
+    "country": "Spain",       
+    "days": ["Tuesday", "Saturday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Cancun",
+    "country": "Mexico",       
+    "days": ["Wednesday", "Saturday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Corfu",
+    "country": "Greece",       
+    "days": ["Monday", "Friday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Dalaman",
+    "country": "Turkiye",       
+    "days": ["Monday", "Thursday", "Sunday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Dubrovnik",
+    "country": "Croatia",       
+    "days": ["Thursday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Enfidha",
+    "country": "Tunisia",       
+    "days": ["Monday", "Friday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Gran Canaria",
+    "country": "Spain (Canary Islands)",       
+    "days": ["Monday", "Thursday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Ibiza",
+    "country": "Spain (Balearic Islands)",       
+    "days": ["Wednesday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Lanzarote",
+    "country": "Spain (Canary Islands)",       
+    "days": ["Thursday", "Sunday"]
+  },  
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Malaga",
+    "country": "Spain",       
+    "days": ["Thursday", "Sunday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Melbourne Orlando",
+    "country": "United States of America",       
+    "days": ["Tuesday", "Friday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Mahon",
+    "country": "Spain (Balearic Islands)",       
+    "days": ["Saturday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Naples",
+    "country": "Italy",       
+    "days": ["Friday"]
+  },   
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Palma",
+    "country": "Spain (Balearic Islands)",       
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Paphos",
+    "country": "Cyprus",       
+    "days": ["Monday", "Wednesday", "Thursday", "Sunday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Reus",
+    "country": "Spain",       
+    "days": ["Tuesday", "Wednesday", "Friday", "Saturday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Rhodes",
+    "country": "Greece",       
+    "days": ["Tuesday", "Wednesday", "Saturday", "Sunday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Sal",
+    "country": "Cape Verde",       
+    "days": ["Friday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Salzburg",
+    "country": "Austria",       
+    "days": ["Saturday"]
+  },
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Sharm El Sheikh",
+    "country": "Egypt",       
+    "days": ["Wednesday", "Sunday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Tenerife",
+    "country": "Spain (Canary Islands)",       
+    "days": ["Monday", "Tuesday" "Thursday", "Friday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Verona",
+    "country": "Italy",       
+    "days": ["Wednesday", "Saturday"]
+  }, 
+    {
+    "airline": "TUI",
+    "from": "Glasgow",
+    "to": "Zakynthos",
+    "country": "Greece",       
+    "days": ["Thursday", "Sunday"]
+  },     
+    {
     "airline": "United Airlines",
     "from": "Glasgow",
     "to": "Newark",
@@ -744,7 +905,7 @@
     {
     "airline": "WIZZ Air",
     "from": "Glasgow",
-    "to": "Rome Fiumicini",
+    "to": "Rome Fiumicino",
     "country": "Italy",       
     "days": ["Monday", "Wednesday", "Friday"]
   }  
