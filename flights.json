@@ -865,7 +865,7 @@
     "from": "Glasgow",
     "to": "Tenerife",
     "country": "Spain (Canary Islands)",       
-    "days": ["Monday", "Tuesday" "Thursday", "Friday"]
+    "days": ["Monday", "Tuesday", "Thursday", "Friday"]
   }, 
     {
     "airline": "TUI",
