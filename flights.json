@@ -289,7 +289,7 @@
     {
     "airline": "easyJet",
     "from": "Glasgow",
-    "to": "Rome",
+    "to": "Rome Fiumicino",
     "country": "Italy",       
     "days": ["Monday", "Tuesday", "Thursday", "Friday"]  
   },
