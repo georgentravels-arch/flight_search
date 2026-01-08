@@ -11,7 +11,7 @@
     "from": "Glasgow",
     "to": "Cork",
     "country": "Ireland",       
-    "days": ["Monday", "Thursday", "Friday", "Sunday"]
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"]
   },
     {
     "airline": "Aer Lingus",
